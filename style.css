@@ -119,3 +119,29 @@ input{
     }
 
 }
+
+@media (max-width:248px){
+    .container1{
+        width: 200px;
+        padding: 2px;
+    }
+    input{
+        max-width: 60px;
+        font-size: 9px;
+        border-radius: 3px;
+
+    }
+    p{
+        font-size: 13px;
+    }
+    .container>h1{
+        font-size: 20px;
+    }
+    button{
+        font-size: 12px;
+        font-weight: 500;
+        margin: 1px auto;
+        padding: 2px 3px;
+    }
+
+}
