@@ -72,6 +72,10 @@ input{
 @media (max-width:440px){
     .container1{
         width: 300px;
+        display: flex !important;
+        flex-direction: column;
+        height: 10vh;
+
     }
     input{
         max-width: 100px;
@@ -90,6 +94,8 @@ input{
         font-weight: 500;
         margin: 10px auto;
         padding: 3px 5px;
+        text-align: left;
+        margin: 0 !important;
     }
 
 }
@@ -98,6 +104,7 @@ input{
     .container1{
         width: 230px;
         padding: 2px;
+        height: 15vh;
     }
     input{
         max-width: 81px;
