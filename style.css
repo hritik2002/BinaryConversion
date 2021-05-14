@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+
+}
+.container>h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(57, 117, 133);
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    margin: auto;
+    width: 400px;
+    background-color: rgb(148, 196, 238);
+    padding: 40px 10px;
+    border: 2px solid #fff;
+}
+.question{
+    padding: 5px;
+    margin: 5px auto;
+}
+button{
+    margin: 20px auto;
+    padding: 5px 8px;
+    background-color: teal;
+    color: #fff;
+    border-radius: 2.2px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(23, 87, 87);
+    color: rgb(175, 175, 175);
+}
+.answer{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 5px auto;
+}
+p{
+    margin: auto;
+    display: inline;
+    font-size: 26px;
+}
+input{
+    width: 70%;
+    max-width: 150px;
+    text-align: center;
+    margin: 5px;
+    font-size: 22px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+@media (max-width:440px){
+    .container1{
+        width: 300px;
+    }
+    input{
+        max-width: 100px;
+        font-size: 20px;
+        border-radius: 3px;
+
+    }
+    p{
+        font-size: 21px;
+    }
+    .container>h1{
+        font-size: 25px;
+    }
+    button{
+        font-size: 15px;
+        font-weight: 500;
+        margin: 10px auto;
+        padding: 3px 5px;
+    }
+
+}
+
+@media (max-width:328px){
+    .container1{
+        width: 230px;
+        padding: 2px;
+    }
+    input{
+        max-width: 81px;
+        font-size: 12px;
+        border-radius: 3px;
+
+    }
+    p{
+        font-size: 15px;
+    }
+    .container>h1{
+        font-size: 25px;
+    }
+    button{
+        font-size: 14px;
+        font-weight: 500;
+        margin: 1px auto;
+        padding: 2px 5px;
+    }
+
+}
