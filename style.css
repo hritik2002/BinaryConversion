@@ -74,7 +74,7 @@ input{
         width: 300px;
         display: flex !important;
         flex-direction: column;
-        height:30vh !important;
+        height:35vh !important;
         justify-content: start;
         align-items: flex-start !important;
         
@@ -92,6 +92,7 @@ input{
         font-size: 20px;
         border-radius: 3px;
         margin-left: 0 !important;
+        text-align: start;
 
     }
     p{
@@ -118,12 +119,13 @@ input{
     .container1{
         width: 280px;
         padding: 2px;
-        height: 15vh;
+        height: 25vh;
     }
     input{
         max-width: 100%;
         font-size: 12px;
         border-radius: 3px;
+        text-align: start;
 
     }
     p{
@@ -145,11 +147,13 @@ input{
     .container1{
         width: 230px;
         padding: 2px;
+        height: 25vh;
     }
     input{
         max-width: 100%;
         font-size: 9px;
         border-radius: 3px;
+        text-align: start;
 
     }
     p{
@@ -177,6 +181,7 @@ input{
         font-size: 9px;
         border-radius: 3px;
         margin: 2px;
+        text-align: start;
 
     }
     p{
